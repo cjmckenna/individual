@@ -132,53 +132,8 @@ objectives:
       warning: []
       weight: 1
       key_sli: false
-    - sli: eden_gc_time_individual-assembly-a
-      displayName: EDEN GC Time (individual-assembly-a)
-      pass:
-        - criteria:
-            - '>=0.000000'
-            - <500.000000
-      warning: []
-      weight: 1
-      key_sli: false
-    - sli: eden_gc_time_individual-assembly-a
-      displayName: EDEN GC Time (individual-assembly-a)
-      pass:
-        - criteria:
-            - '>=0.000000'
-            - <500.000000
-      warning: []
-      weight: 1
-      key_sli: false
-    - sli: eden_gc_time_individual-assembly-a
-      displayName: EDEN GC Time (individual-assembly-a)
-      pass:
-        - criteria:
-            - '>=0.000000'
-            - <500.000000
-      warning: []
-      weight: 1
-      key_sli: false
-    - sli: eden_gc_time_individual-assembly-a
-      displayName: EDEN GC Time (individual-assembly-a)
-      pass:
-        - criteria:
-            - '>=0.000000'
-            - <500.000000
-      warning: []
-      weight: 1
-      key_sli: false
-    - sli: eden_gc_time_individual-assembly-a
-      displayName: EDEN GC Time (individual-assembly-a)
-      pass:
-        - criteria:
-            - '>=0.000000'
-            - <500.000000
-      warning: []
-      weight: 1
-      key_sli: false
-    - sli: eden_gc_time_individual-assembly-a
-      displayName: EDEN GC Time (individual-assembly-a)
+    - sli: eden_gc_time
+      displayName: EDEN GC Time
       pass:
         - criteria:
             - '>=0.000000'
