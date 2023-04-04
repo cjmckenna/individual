@@ -1,0 +1,335 @@
+spec_version: ""
+filter: {}
+comparison:
+    compare_with: single_result
+    include_result_with_score: pass
+    number_of_comparison_results: 1
+    aggregate_function: avg
+objectives:
+    - sli: responsetime_auth_proxy-_cxf_individual_individualcompliancelocator_v2
+      displayName: ResponseTime (Auth Proxy-/cxf/individual/IndividualComplianceLocator/v2)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <1500.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: responsetime_auth_proxy-_cxf_individual_individualcompliancelocator_v2
+      displayName: ResponseTime (Auth Proxy-/cxf/individual/IndividualComplianceLocator/v2)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <1500.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: responsetime_auth_proxy-_cxf_individual_v1_individualpreferences
+      displayName: ResponseTime (Auth Proxy-/cxf/individual/v1/individualpreferences)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <1500.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: responsetime_auth_proxy-_cxf_individual_individualcompliancelocator_v3
+      displayName: ResponseTime (Auth Proxy-/cxf/individual/IndividualComplianceLocator/v3)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <1500.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: responsetime_auth_proxy-_cxf_individual_individualcompliancelocator_v3
+      displayName: ResponseTime (Auth Proxy-/cxf/individual/IndividualComplianceLocator/v3)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <1500.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: responsetime_auth_proxy-_cxf_individual_v1_individualpreferences
+      displayName: ResponseTime (Auth Proxy-/cxf/individual/v1/individualpreferences)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <1500.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: errors_auth_proxy-_cxf_individual_v1_individualpreferences
+      displayName: errors (Auth Proxy-/cxf/individual/v1/individualpreferences)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <10.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: errors_auth_proxy-_cxf_individual_individualcompliancelocator_v2
+      displayName: errors (Auth Proxy-/cxf/individual/IndividualComplianceLocator/v2)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <10.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: errors_auth_proxy-_cxf_individual_v1_individualpreferences
+      displayName: errors (Auth Proxy-/cxf/individual/v1/individualpreferences)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <10.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: errors_auth_proxy-_cxf_individual_individualcompliancelocator_v2
+      displayName: errors (Auth Proxy-/cxf/individual/IndividualComplianceLocator/v2)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <10.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: errors_auth_proxy-_cxf_individual_individualcompliancelocator_v3
+      displayName: errors (Auth Proxy-/cxf/individual/IndividualComplianceLocator/v3)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <10.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: errors_auth_proxy-_cxf_individual_individualcompliancelocator_v3
+      displayName: errors (Auth Proxy-/cxf/individual/IndividualComplianceLocator/v3)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <10.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: oscp_throttling_individual-assembly-a-856b866bc9-v7l59_individual-assembly-a
+      displayName: OSCP Throttling (individual-assembly-a-856b866bc9-v7l59 individual-assembly-a)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <200.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: oscp_throttling_individual-assembly-a-647dddc9b4-n5fsw_individual-assembly-a
+      displayName: OSCP Throttling (individual-assembly-a-647dddc9b4-n5fsw individual-assembly-a)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <200.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: oscp_throttling_individual-assembly-a-76c69bbdbc-hhjkl_individual-assembly-a
+      displayName: OSCP Throttling (individual-assembly-a-76c69bbdbc-hhjkl individual-assembly-a)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <200.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: oscp_throttling_individual-assembly-a-588d547c5f-brjw4_individual-assembly-a
+      displayName: OSCP Throttling (individual-assembly-a-588d547c5f-brjw4 individual-assembly-a)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <200.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: oscp_throttling_individual-assembly-a-b99945759-b8qhx_individual-assembly-a
+      displayName: OSCP Throttling (individual-assembly-a-b99945759-b8qhx individual-assembly-a)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <200.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: oscp_throttling_individual-assembly-a-564db6d6cc-dtfwp_individual-assembly-a
+      displayName: OSCP Throttling (individual-assembly-a-564db6d6cc-dtfwp individual-assembly-a)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <200.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: oscp_throttling_individual-assembly-a-564db6d6cc-pkw7x_individual-assembly-a
+      displayName: OSCP Throttling (individual-assembly-a-564db6d6cc-pkw7x individual-assembly-a)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <200.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: oscp_throttling_individual-assembly-a-564db6d6cc-8jnnf_individual-assembly-a
+      displayName: OSCP Throttling (individual-assembly-a-564db6d6cc-8jnnf individual-assembly-a)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <200.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: oscp_throttling_individual-assembly-a-564db6d6cc-lt28w_individual-assembly-a
+      displayName: OSCP Throttling (individual-assembly-a-564db6d6cc-lt28w individual-assembly-a)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <200.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: oscp_throttling_individual-assembly-a-564db6d6cc-z9vsn_individual-assembly-a
+      displayName: OSCP Throttling (individual-assembly-a-564db6d6cc-z9vsn individual-assembly-a)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <200.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: oscp_throttling_individual-assembly-a-564db6d6cc-ljd6s_individual-assembly-a
+      displayName: OSCP Throttling (individual-assembly-a-564db6d6cc-ljd6s individual-assembly-a)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <200.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: gc_suspension
+      displayName: GC Suspension
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <1.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: cpu_pct_of_limit
+      displayName: CPU pct of limit
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <50.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: eden_gc_time_org_apache_karaf_main_main_individual-assembly-a-*_eu-si-2-pfx_(individual-assembly-a-856b866bc9-v7l59_)
+      displayName: EDEN GC Time (org.apache.karaf.main.Main individual-assembly-a-* eu-si-2-pfx (individual-assembly-a-856b866bc9-v7l59 ))
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <500.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: eden_gc_time_org_apache_karaf_main_main_individual-assembly-a-*_eu-si-2-pfx_(individual-assembly-a-647dddc9b4-n5fsw_)
+      displayName: EDEN GC Time (org.apache.karaf.main.Main individual-assembly-a-* eu-si-2-pfx (individual-assembly-a-647dddc9b4-n5fsw ))
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <500.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: eden_gc_time_individual-assembly-a
+      displayName: EDEN GC Time (individual-assembly-a)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <500.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: eden_gc_time_individual-assembly-a
+      displayName: EDEN GC Time (individual-assembly-a)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <500.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: eden_gc_time_individual-assembly-a
+      displayName: EDEN GC Time (individual-assembly-a)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <500.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: eden_gc_time_individual-assembly-a
+      displayName: EDEN GC Time (individual-assembly-a)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <500.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: eden_gc_time_individual-assembly-a
+      displayName: EDEN GC Time (individual-assembly-a)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <500.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: eden_gc_time_individual-assembly-a
+      displayName: EDEN GC Time (individual-assembly-a)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <500.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: eden_gc_time_org_apache_karaf_main_main_individual-assembly-a-*_eu-si-2-int_(individual-assembly-a-76c69bbdbc-hhjkl_)
+      displayName: EDEN GC Time (org.apache.karaf.main.Main individual-assembly-a-* eu-si-2-int (individual-assembly-a-76c69bbdbc-hhjkl ))
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <500.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: eden_gc_time_org_apache_karaf_main_main_individual-assembly-a-*_eu-si-2-sys_(individual-assembly-a-b99945759-b8qhx_)
+      displayName: EDEN GC Time (org.apache.karaf.main.Main individual-assembly-a-* eu-si-2-sys (individual-assembly-a-b99945759-b8qhx ))
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <500.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: eden_gc_time_org_apache_karaf_main_main_individual-assembly-a-*_eu-si-2-rel_(individual-assembly-a-588d547c5f-brjw4_)
+      displayName: EDEN GC Time (org.apache.karaf.main.Main individual-assembly-a-* eu-si-2-rel (individual-assembly-a-588d547c5f-brjw4 ))
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <500.000000
+      warning: []
+      weight: 1
+      key_sli: false
+total_score:
+    pass: 90%
+    warning: 75%
