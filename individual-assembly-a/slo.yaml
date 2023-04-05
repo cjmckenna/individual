@@ -141,12 +141,6 @@ objectives:
       warning: []
       weight: 1
       key_sli: false
-    - sli: slo_fb4609cd-1820-3b41-bfe4-ac8c2e7091c3
-      displayName: ""
-      pass: []
-      warning: []
-      weight: 1
-      key_sli: false
 total_score:
     pass: 90%
     warning: 75%
