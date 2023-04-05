@@ -6,8 +6,8 @@ comparison:
     number_of_comparison_results: 1
     aggregate_function: avg
 objectives:
-    - sli: responsetime_auth_proxy-_cxf_individual_individualcompliancelocator_v2
-      displayName: ResponseTime (Auth Proxy-/cxf/individual/IndividualComplianceLocator/v2)
+    - sli: responsetime
+      displayName: ResponseTime
       pass:
         - criteria:
             - '>=0.000000'
@@ -15,26 +15,8 @@ objectives:
       warning: []
       weight: 1
       key_sli: false
-    - sli: responsetime_auth_proxy-_cxf_individual_individualcompliancelocator_v3
-      displayName: ResponseTime (Auth Proxy-/cxf/individual/IndividualComplianceLocator/v3)
-      pass:
-        - criteria:
-            - '>=0.000000'
-            - <1500.000000
-      warning: []
-      weight: 1
-      key_sli: false
-    - sli: errors_auth_proxy-_cxf_individual_individualcompliancelocator_v2
-      displayName: errors (Auth Proxy-/cxf/individual/IndividualComplianceLocator/v2)
-      pass:
-        - criteria:
-            - '>=0.000000'
-            - <10.000000
-      warning: []
-      weight: 1
-      key_sli: false
-    - sli: errors_auth_proxy-_cxf_individual_individualcompliancelocator_v3
-      displayName: errors (Auth Proxy-/cxf/individual/IndividualComplianceLocator/v3)
+    - sli: errors
+      displayName: errors
       pass:
         - criteria:
             - '>=0.000000'
