@@ -6,21 +6,12 @@ comparison:
     number_of_comparison_results: 1
     aggregate_function: avg
 objectives:
-    - sli: responsetime
-      displayName: ResponseTime
+    - sli: gc_suspension
+      displayName: GC Suspension
       pass:
         - criteria:
             - '>=0.000000'
-            - <1500.000000
-      warning: []
-      weight: 1
-      key_sli: false
-    - sli: errors
-      displayName: errors
-      pass:
-        - criteria:
-            - '>=0.000000'
-            - <10.000000
+            - <1.000000
       warning: []
       weight: 1
       key_sli: false
@@ -78,15 +69,6 @@ objectives:
       warning: []
       weight: 1
       key_sli: false
-    - sli: gc_suspension
-      displayName: GC Suspension
-      pass:
-        - criteria:
-            - '>=0.000000'
-            - <1.000000
-      warning: []
-      weight: 1
-      key_sli: false
     - sli: cpu_pct_of_limit
       displayName: CPU pct of limit
       pass:
@@ -102,6 +84,24 @@ objectives:
         - criteria:
             - '>=0.000000'
             - <1000.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: errors
+      displayName: errors
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <10.000000
+      warning: []
+      weight: 1
+      key_sli: false
+    - sli: responsetime
+      displayName: ResponseTime
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <1500.000000
       warning: []
       weight: 1
       key_sli: false
